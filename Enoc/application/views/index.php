@@ -7,7 +7,7 @@
             <div class="portada-fondo" aria-hidden="true"></div>
             <div class="portada-particulas" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
             <div class="portada-contenido">
-                <h1 class="titulo-principal"><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> Vela Studio</h1>
+                <h1 class="titulo-principal"><img class="logo-wordmark" src="<?php echo base_url('img/vela studio2.png'); ?>" alt="Vela Studio"></h1>
                 <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren y emocionen a las personas.</p>
                 <h2 class="titulo-portada-juego">
                     <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc.png'); ?>" alt="Enoc">

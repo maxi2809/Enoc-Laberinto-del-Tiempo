@@ -255,28 +255,14 @@ a:focus-visible {
 }
 
 .portada-hero .titulo-principal {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    color: #ffffff;
-    font-size: 1.05rem;
-    font-weight: 700;
-    letter-spacing: 7px;
-    text-transform: uppercase;
-    padding: 8px 22px;
-    border: 1px solid rgba(8, 198, 231, 0.45);
-    border-radius: 999px;
-    background: rgba(8, 198, 231, 0.08);
+    display: inline-block;
+    margin: 0;
 }
 
-.portada-hero .titulo-principal i {
-    color: #08c6e7;
-    animation: llama-latir 1.6s ease-in-out infinite alternate;
-}
-
-@keyframes llama-latir {
-    from { transform: scale(1); }
-    to   { transform: scale(1.18); }
+.logo-wordmark {
+    height: 72px;
+    width: auto;
+    filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.45));
 }
 
 .portada-intro {
@@ -338,12 +324,15 @@ a:focus-visible {
     .titulo-portada-resto {
         font-size: 1.7rem;
     }
+
+    .logo-wordmark {
+        height: 52px;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
     .portada-fondo,
-    .portada-particulas span,
-    .portada-hero .titulo-principal i {
+    .portada-particulas span {
         animation: none;
     }
 }
