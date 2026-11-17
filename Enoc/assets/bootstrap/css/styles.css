@@ -280,7 +280,7 @@ a:focus-visible {
 .lettering-enoc {
     height: 120px;
     width: auto;
-    filter: drop-shadow(0 0 10px rgba(8, 198, 231, 0.75)) drop-shadow(0 0 26px rgba(8, 198, 231, 0.4));
+    filter: drop-shadow(0 0 8px rgba(246, 226, 122, 0.6)) drop-shadow(0 0 22px rgba(201, 154, 63, 0.35));
 }
 
 .lettering-laberinto {
