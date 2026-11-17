@@ -8,7 +8,7 @@
             <div class="portada-particulas" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
             <div class="portada-contenido">
                 <h1 class="titulo-principal"><img class="logo-wordmark" src="<?php echo base_url('img/vela studio2.png'); ?>" alt="Vela Studio"></h1>
-                <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren, emocionen y edquen a las personas.</p>
+                <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren, emocionen y eduquen a las personas.</p>
                 <h2 class="titulo-portada-juego">
                     <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc-oro.png'); ?>" alt="Enoc">
                     <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
