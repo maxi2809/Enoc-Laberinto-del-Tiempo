@@ -296,6 +296,14 @@ a:focus-visible {
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.55));
 }
 
+/* Titulo con lettering en la pagina El juego */
+.titulo-juego-hero .titulo-principal {
+    color: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    margin-bottom: 14px;
+}
+
 .portada-eslogan {
     max-width: 640px;
     margin: 0 auto;
