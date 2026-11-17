@@ -61,4 +61,16 @@
                 </div>
             </div>
         </section>
+
+        <!-- STORYBOARD -->
+        <section class="container px-5 mt-4">
+            <div class="tarjeta">
+                <div class="cuerpo-tarjeta text-center">
+                    <div class="hexa mb-3"><i class="fa-solid fa-pencil-ruler" aria-hidden="true"></i></div>
+                    <h3>Storyboard</h3>
+                    <p class="texto-cuerpo mb-3">El storyboard completo del proyecto: portada, sinopsis y el desarrollo escena por escena (18 páginas).</p>
+                    <a class="btn btn-principal" href="<?php echo base_url('docs/Storyboard.pdf'); ?>" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Ver storyboard (PDF)</a>
+                </div>
+            </div>
+        </section>
     </main>
