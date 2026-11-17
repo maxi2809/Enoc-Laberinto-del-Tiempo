@@ -7,8 +7,8 @@
                 <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc-oro.png'); ?>" alt="Enoc">
                 <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
             </h1>
-            <p class="slogan">Un viaje a través del tiempo y del alma humana: cada puerta es una lección, cada misión una prueba y cada fragmento una esperanza.</p>
-            <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
+            <p class="slogan">Un viaje a través del tiempo y del alma humana, dondecada puerta es una lección, cada misión una prueba y cada fragmento una esperanza.</p>
+            <p><span class="duracion">Aventura y Plataforma en 2D</span></p>
         </section>
 
         <!-- SINOPSIS -->
@@ -17,7 +17,7 @@
 
                 <div class="col-12 mb-4">
                     <h2 class="titulo-seccion" style="margin-top: 0;">Sinopsis</h2>
-                    <p class="texto-cuerpo" style="opacity: 0.75;">Escrito por Carlos Correa y Ángel Emanuel Medina · ULP San Luis</p>
+                    <p class="texto-cuerpo" style="opacity: 0.75;">Escrito por Carlos Correa · ULP San Luis</p>
                     <p class="texto-cuerpo">
                         En un mundo al borde del colapso, donde la humanidad ha comenzado a perder aquello que la definía,
                         como la compasión, la memoria y el sentido de propósito, la destrucción y el exterminio se extienden
@@ -117,7 +117,7 @@
                 <div class="col-6 col-md-3 mb-4">
                     <div class="hexa"><i class="fa-solid fa-door-open" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">...y más puertas</h3>
-                    <p class="texto-cuerpo">Nuevas eras y dimensiones esperan ser abiertas.</p>
+                    <p class="texto-cuerpo">Próximamente nuevas aventuras.</p>
                 </div>
 
             </div>
@@ -174,25 +174,25 @@
                 <div class="col-6 col-md-3 mb-4">
                     <div class="hexa"><i class="fa-solid fa-key" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">La llave ancestral</h3>
-                    <p class="texto-cuerpo">Abre los portales sellados por el tiempo que conducen a cada era.</p>
+                    <p class="texto-cuerpo">Abre los puertas cerradas por el Místico, que conducen el tiempo a cada universo.</p>
                 </div>
 
                 <div class="col-6 col-md-3 mb-4">
                     <div class="hexa"><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i></div>
-                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Enigmas y acertijos</h3>
-                    <p class="texto-cuerpo">Desafíos con la lógica de cada época: relojes, runas y constelaciones.</p>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Enigma, acertijos y descubrimientos</h3>
+                    <p class="texto-cuerpo">Llevan al personaje a diferentes sensaciones y niveles</p>
                 </div>
 
                 <div class="col-6 col-md-3 mb-4">
                     <div class="hexa"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
-                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Héroes legendarios</h3>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Héroes Legendarios</h3>
                     <p class="texto-cuerpo">Encarna al Aviador, el Griego, el Vikingo y otros héroes de la historia.</p>
                 </div>
 
                 <div class="col-6 col-md-3 mb-4">
                     <div class="hexa"><i class="fa-solid fa-palette" aria-hidden="true"></i></div>
-                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Arte hecho a mano</h3>
-                    <p class="texto-cuerpo">Ilustración y animación 2D propias, con una identidad visual por cada época.</p>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Arte realizado con profesionalismo</h3>
+                    <p class="texto-cuerpo">Ilustraciones y animaciones 2D propias y con una identidad visual definida.</p>
                 </div>
 
             </div>
@@ -204,16 +204,16 @@
             <div class="row">
 
                 <div class="col-12 col-md-6 mb-4">
-                    <p class="texto-cuerpo"><span class="numeracion">01</span> &nbsp;<strong>Cruza las puertas:</strong> cada puerta abierta con la llave ancestral te lleva a una era distinta del laberinto.</p>
+                    <p class="texto-cuerpo"><span class="numeracion">01</span> &nbsp;<strong>Cruza las puertas.</strong> Donde cada destino te lleva a lugares desconicidos y alucinates </p>
                 </div>
                 <div class="col-12 col-md-6 mb-4">
-                    <p class="texto-cuerpo"><span class="numeracion">02</span> &nbsp;<strong>Supera los desafíos:</strong> cada victoria te otorga un fragmento de la Roca de la Sabiduría.</p>
+                    <p class="texto-cuerpo"><span class="numeracion">02</span> &nbsp;<strong>Supera los desafíos:</strong> para que cada victoria te otorgué un fragmento de la Roca de la Sabiduría.</p>
                 </div>
                 <div class="col-12 col-md-6 mb-4">
-                    <p class="texto-cuerpo"><span class="numeracion">03</span> &nbsp;<strong>Encarna a héroes:</strong> viaja a cada era tomando el rol de héroes legendarios de la historia.</p>
+                    <p class="texto-cuerpo"><span class="numeracion">03</span> &nbsp;<strong>Encarna a héroes:</strong> y viaja a cada era tomando el rol de héroes legendarios de la historia.</p>
                 </div>
                 <div class="col-12 col-md-6 mb-4">
-                    <p class="texto-cuerpo"><span class="numeracion">04</span> &nbsp;<strong>Recompón la Roca:</strong> reúne los 7 valores olvidados para restaurar el equilibrio del mundo.</p>
+                    <p class="texto-cuerpo"><span class="numeracion">04</span> &nbsp;<strong>Restaura la Roca de la Sabiduría</strong> con los fragmentos de los 7 valores olvidados para restaurar el equilibrio del mundo.</p>
                 </div>
 
             </div>
@@ -223,21 +223,6 @@
         <section class="container px-5 mt-4">
             <h2 class="titulo-seccion text-center">Requisitos del sistema</h2>
             <div class="row">
-
-                <div class="col-12 col-md-6 mb-4">
-                    <div class="tarjeta">
-                        <div class="cuerpo-tarjeta">
-                            <h3>Requisitos mínimos</h3>
-                            <ul class="lista-enlaces">
-                                <li><i class="fa-solid fa-desktop" aria-hidden="true"></i>Windows 7 / 10 (64 bits)</li>
-                                <li><i class="fa-solid fa-microchip" aria-hidden="true"></i>Procesador dual-core a 2.0 GHz</li>
-                                <li><i class="fa-solid fa-memory" aria-hidden="true"></i>4 GB de RAM</li>
-                                <li><i class="fa-solid fa-photo-video" aria-hidden="true"></i>Tarjeta gráfica con soporte DirectX 10</li>
-                                <li><i class="fa-solid fa-hard-drive" aria-hidden="true"></i>2 GB de espacio libre</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-12 col-md-6 mb-4">
                     <div class="tarjeta">
@@ -255,7 +240,7 @@
                 </div>
 
             </div>
-            <p class="text-center texto-cuerpo mb-4">El juego está en desarrollo: los requisitos son provisionales y pueden cambiar.</p>
+            <p class="text-center texto-cuerpo mb-4">El juego está en desarrollo y los requisitos son provisionales y pueden cambiar.</p>
         </section>
 
         <!-- LLAMADOS A LA ACCIÓN -->

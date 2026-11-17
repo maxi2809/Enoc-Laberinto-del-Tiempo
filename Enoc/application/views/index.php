@@ -8,13 +8,13 @@
             <div class="portada-particulas" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
             <div class="portada-contenido">
                 <h1 class="titulo-principal"><img class="logo-wordmark" src="<?php echo base_url('img/vela studio2.png'); ?>" alt="Vela Studio"></h1>
-                <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren y emocionen a las personas.</p>
+                <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren, emocionen y edquen a las personas.</p>
                 <h2 class="titulo-portada-juego">
                     <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc-oro.png'); ?>" alt="Enoc">
                     <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
                 </h2>
-                <p class="portada-eslogan">Un viaje a través del tiempo para salvar a la humanidad de una catástrofe: cada puerta guarda una era distinta.</p>
-                <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
+                <p class="portada-eslogan">Un viaje a través del tiempo para salvar a la humanidad de una catástrofe, donde cada puerta guarda un destino diferente.</p>
+                <p><span class="duracion">Aventura y Plataforma en 2D</span></p>
                 <div class="portada-cta">
                     <a class="btn btn-principal btn-lg mr-2 mb-2" href="<?php echo base_url('tienda'); ?>"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> ¡Jugar ahora!</a>
                     <a class="btn btn-outline-light btn-lg mr-2 mb-2" href="<?php echo base_url('videos'); ?>"><i class="fa-solid fa-clapperboard" aria-hidden="true"></i> Ver tráilers</a>
@@ -28,12 +28,12 @@
 
                 <div class="col-12 col-md-6">
                     <div class="text-center">
-                        <img class="personaje-home" src="<?php echo base_url('img/Enoc_s_f2.svg'); ?>" alt="Enoc, el viajero del tiempo">
+                        <img class="personaje-home" src="<?php echo base_url('img/Enoc_s_f2.svg'); ?>" alt="Enoc, el viajero escogido para salvar a la humanidad" style="max-width: 100%; height: auto;">
                     </div>
                     <div class="presentacion-enoc">
-                        <h3>Sé Enoc en el Laberinto del Tiempo</h3>
+                        <h3>Sumergete en la vida de Enoc en el Laberinto del Tiempo</h3>
                         <p>Descubre qué se encuentra detrás de cada puerta.</p>
-                        <p>Sé el héroe de tu propia historia.</p>
+                        <p>Sé el héroe de tu propia historia y toma las decisiones que definirán el destino del mundo.</p>
                         <p>Explora mundos desconocidos y enfrenta desafíos épicos.</p>
                         <a class="btn btn-principal mt-2" href="<?php echo base_url('personajes'); ?>">Conoce los personajes</a>
                     </div>
@@ -44,7 +44,7 @@
                         <img src="<?php echo base_url('img/encuentro.jpg'); ?>" alt="Escena: El encuentro">
                         <img src="<?php echo base_url('img/olimpico.jpg'); ?>" class="feature-image-hover" alt="Escena: El olímpico">
                     </div>
-                    <p class="text-center pie-foto">Pasa el ratón por la imagen para cambiar de escena</p>
+                    <p class="text-center pie-foto">*** desliza las imágenes ***</p>
                 </div>
 
             </div>
@@ -62,11 +62,10 @@
                     <div class="col-12 col-md-8">
                         <div class="cuerpo-tarjeta">
                             <h2 class="titulo-seccion" style="margin-top: 0;">Enoc en el Laberinto del Tiempo</h2>
-                            <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
+                            <p><span class="duracion">Aventura y Plataforma en 2D</span></p>
                             <p class="texto-cuerpo">
-                                Enoc descubre un laberinto cuyas puertas conducen a distintas eras. Encarna a héroes
-                                legendarios, supera sus desafíos y reúne los fragmentos de la Roca de la Sabiduría
-                                antes de que el mundo caiga.
+                                Enoc descubre un laberinto, en donde sus puertas conducen a distintas eras. Encarna a héroes
+                                legendarios, supera sus desafíos y reúne los fragmentos de la Roca de la Sabiduría antes de que el mundo caiga.
                             </p>
                             <a class="btn btn-principal mr-2" href="<?php echo base_url('el-juego'); ?>"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Ver más</a>
                             <a class="btn btn-outline-light" href="<?php echo base_url('tienda'); ?>"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> ¡Jugar ahora!</a>

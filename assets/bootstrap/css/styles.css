@@ -169,8 +169,11 @@ a:focus-visible {
 }
 
 .personaje-home {
+    display: block;
     height: 360px;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .presentacion-enoc {
