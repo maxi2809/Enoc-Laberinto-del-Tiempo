@@ -404,7 +404,12 @@ a:focus-visible {
     overflow: hidden;
 }
 
-.feature-image-container img {
+.feature-image-container .carousel-inner,
+.feature-image-container .carousel-item {
+    height: 100%;
+}
+
+.feature-image-container .carousel-item img {
     position: absolute;
     inset: 0;
     display: block;
@@ -413,13 +418,14 @@ a:focus-visible {
     object-fit: cover;
 }
 
-.feature-image-container .feature-image-hover {
-    opacity: 0;
-    transition: opacity 0.3s ease;
+.feature-image-container .carousel-item img.carousel-image-contain {
+    object-fit: contain;
+    background-color: #11182a;
+    padding: 1rem;
 }
 
-.feature-image-container:hover .feature-image-hover {
-    opacity: 1;
+.feature-image-container .carousel-indicators {
+    z-index: 2;
 }
 
 /* ==========================================================================

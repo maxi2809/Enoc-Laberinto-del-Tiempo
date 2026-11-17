@@ -22,7 +22,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div id="mistico" class="tarjeta">
-                        <img class="imagen-tarjeta" src="<?php echo base_url('img/boceto_personaje_mistico.jpeg'); ?>" alt="Místico">
+                        <img class="imagen-tarjeta" src="<?php echo base_url('img/mistico.png'); ?>" alt="Místico">
                         <div class="cuerpo-tarjeta">
                             <h3>Místico</h3>
                             <p>El guardián del laberinto. Teje enigmas y sueños entre sus puertas, y solo revela el camino a quien demuestre sabiduría.</p>

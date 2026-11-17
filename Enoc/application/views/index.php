@@ -28,7 +28,7 @@
 
                 <div class="col-12 col-md-6">
                     <div class="text-center">
-                        <img class="personaje-home" src="<?php echo base_url('img/Enoc_s_f2.svg'); ?>" alt="Enoc, el viajero escogido para salvar a la humanidad" style="max-width: 100%; height: auto;">
+                        <img class="personaje-home" src="<?php echo base_url('img/Enoc_s_f2.svg'); ?>" alt="Enoc, el viajero escogido para salvar a la humanidad" style="max-width: auto; height: 500px;">
                     </div>
                     <div class="presentacion-enoc">
                         <h3>Sumergete en la vida de Enoc en el Laberinto del Tiempo</h3>
@@ -40,11 +40,39 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <div class="feature-image-container">
-                        <img src="<?php echo base_url('img/encuentro.jpg'); ?>" alt="Escena: El encuentro">
-                        <img src="<?php echo base_url('img/olimpico.jpg'); ?>" class="feature-image-hover" alt="Escena: El olímpico">
+                    <div id="galeriaInicio" class="carousel slide feature-image-container" data-ride="carousel" data-interval="3000" data-pause="hover" role="region" aria-label="Galería de escenas de Enoc">
+                        <ol class="carousel-indicators">
+                            <li data-target="#galeriaInicio" data-slide-to="0" class="active" aria-label="Escena 1"></li>
+                            <li data-target="#galeriaInicio" data-slide-to="1" aria-label="Escena 2"></li>
+                            <li data-target="#galeriaInicio" data-slide-to="2" aria-label="Escena 3"></li>
+                            <li data-target="#galeriaInicio" data-slide-to="3" aria-label="Escena 4"></li>
+                            <li data-target="#galeriaInicio" data-slide-to="4" aria-label=" Escena 5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img class="carousel-image-contain" src="<?php echo base_url('img/TipografiaEnoc.png'); ?>" alt="Tipografía de Enoc">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image-contain" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="Tarjetas de Enoc en el laberinto del Tiempo">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="<?php echo base_url('img/encuentro.jpg'); ?>" alt="Enoc conoce al Guardián del Tiempo en el laberinto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo base_url('img/olimpico.jpg'); ?>" alt="Desafío de ritmo olímpico en la antigua Grecia">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo base_url('img/piloto.jpg'); ?>" alt="Desafío aéreo en la época de la Segunda Guerra Mundial">
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#galeriaInicio" role="button" data-slide="prev" aria-label="Imagen anterior">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#galeriaInicio" role="button" data-slide="next" aria-label="Imagen siguiente">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
                     </div>
-                    <p class="text-center pie-foto">*** desliza las imágenes ***</p>
                 </div>
 
             </div>
