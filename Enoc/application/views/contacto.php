@@ -12,32 +12,42 @@
 
                 <!-- FORMULARIO -->
                 <div class="col-12 col-md-7 mb-4">
-                    <!-- El envío es visual; cuando el proyecto avance se puede procesar
-                         con CodeIgniter (form_validation, CSRF, etc.). -->
-                    <form id="formulario">
+                    <?php if (!empty($estado_contacto)): ?>
+                        <div class="alert alert-<?php echo html_escape($tipo_estado_contacto); ?>" role="alert">
+                            <?php echo html_escape($estado_contacto); ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if (!empty($errores_formulario)): ?>
+                        <div class="alert alert-danger" role="alert">
+                            <?php echo $errores_formulario; ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <form id="formulario" method="post" action="<?php echo base_url('contacto'); ?>">
                         <div class="form-group">
                             <label for="nombre">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" value="<?php echo html_escape(set_value('nombre')); ?>" maxlength="100" required>
                         </div>
 
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" value="<?php echo html_escape(set_value('email')); ?>" maxlength="254" required>
                         </div>
 
                         <div class="form-group">
                             <label for="asunto">Asunto</label>
                             <select class="form-control" id="asunto" name="asunto">
-                                <option>Información general</option>
-                                <option>Colaboraciones</option>
-                                <option>Prensa</option>
-                                <option>Otro</option>
+                                <option value="general" <?php echo set_select('asunto', 'general', TRUE); ?>>Información general</option>
+                                <option value="colaboraciones" <?php echo set_select('asunto', 'colaboraciones'); ?>>Colaboraciones</option>
+                                <option value="prensa" <?php echo set_select('asunto', 'prensa'); ?>>Prensa</option>
+                                <option value="otro" <?php echo set_select('asunto', 'otro'); ?>>Otro</option>
                             </select>
                         </div>
 
                         <div class="form-group">
                             <label for="mensaje">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos tu idea..." required></textarea>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos tu idea..." maxlength="5000" required><?php echo html_escape(set_value('mensaje')); ?></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-principal mt-2">
@@ -53,13 +63,13 @@
                         <div class="cuerpo-tarjeta">
                             <h3>Vela Studio</h3>
                             <p class="dato-contacto">
-                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>Ciudad, País
+                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>San Luis, Argentina
                             </p>
                             <p class="dato-contacto">
                                 <i class="fa-solid fa-envelope" aria-hidden="true"></i>hola@velastudio.com
                             </p>
                             <p class="dato-contacto">
-                                <i class="fa-solid fa-phone" aria-hidden="true"></i>+34 600 000 000
+                                <i class="fa-solid fa-phone" aria-hidden="true"></i>+54 266 5102058
                             </p>
                             <hr style="border-color: #3a4364;">
                             <p class="dato-contacto">

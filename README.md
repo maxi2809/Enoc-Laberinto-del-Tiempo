@@ -30,6 +30,7 @@ Enoc descubre un laberinto antiguo cuyas puertas conducen a distintas eras. Guia
 1. Copia la carpeta `Enoc/` a `C:\xampp\htdocs\`
 2. Inicia Apache (puerto 8080 en este proyecto)
 3. Abre `http://localhost:8080/Enoc/`
+4. Para habilitar el formulario de contacto, configura `ENOC_SMTP_HOST`, `ENOC_SMTP_USER` y `ENOC_SMTP_PASSWORD` en el entorno de PHP/Apache y reinicia Apache. Opcionalmente, configura `ENOC_SMTP_PORT` (por defecto `587`) y `ENOC_SMTP_CRYPTO` (por defecto `tls`). Los mensajes se envían a `maxicorreaavalos@gmail.com`; no guardes las credenciales SMTP en el repositorio. Para Gmail, usa `smtp.gmail.com`, puerto `587`, cifrado `tls` y una contraseña de aplicación.
 
 ### Versión estática
 
