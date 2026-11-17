@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <div id="galeriaInicio" class="carousel slide feature-image-container" data-ride="carousel" data-interval="3000" data-pause="hover" role="region" aria-label="Galería de escenas de Enoc">
+                    <div id="galeriaInicio" class="carousel slide feature-image-container" data-ride="carousel" data-interval="1000" data-pause="hover" role="region" aria-label="Galería de escenas de Enoc">
                         <ol class="carousel-indicators">
                             <li data-target="#galeriaInicio" data-slide-to="0" class="active" aria-label="Escena 1"></li>
                             <li data-target="#galeriaInicio" data-slide-to="1" aria-label="Escena 2"></li>

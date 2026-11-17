@@ -603,6 +603,7 @@ a:focus-visible {
     font-size: 0.95rem;
     line-height: 2;
     text-align: left;
+    padding-left: 20px;
 }
 
 .lista-enlaces i {
