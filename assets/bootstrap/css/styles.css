@@ -184,6 +184,151 @@ a:focus-visible {
     opacity: 0.7;
 }
 
+/* ---- Portada cinematográfica del index ---- */
+
+.portada-hero {
+    position: relative;
+    margin-top: 30px;
+    padding: 100px 20px 80px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(8, 198, 231, 0.25);
+}
+
+.portada-fondo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:
+        linear-gradient(180deg, rgba(22, 28, 52, 0.86) 0%, rgba(22, 28, 52, 0.74) 45%, #161c34 100%),
+        url('../../../img/Portada del juego.png') no-repeat center 28% / cover;
+    animation: portada-zoom 20s ease-in-out infinite alternate;
+}
+
+@keyframes portada-zoom {
+    from { transform: scale(1); }
+    to   { transform: scale(1.08); }
+}
+
+.portada-particulas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.portada-particulas span {
+    position: absolute;
+    bottom: -12px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ffd166;
+    box-shadow: 0 0 12px 2px rgba(255, 209, 102, 0.55);
+    opacity: 0;
+    animation: chispa-subir 8s linear infinite;
+}
+
+.portada-particulas span:nth-child(1) { left: 10%; animation-duration: 9s; }
+.portada-particulas span:nth-child(2) { left: 24%; width: 4px; height: 4px; animation-delay: 2s; animation-duration: 7s; }
+.portada-particulas span:nth-child(3) { left: 45%; animation-delay: 4s; animation-duration: 10s; }
+.portada-particulas span:nth-child(4) { left: 63%; width: 5px; height: 5px; animation-delay: 1s; animation-duration: 8s; }
+.portada-particulas span:nth-child(5) { left: 78%; animation-delay: 5.5s; animation-duration: 9s; }
+.portada-particulas span:nth-child(6) { left: 92%; width: 4px; height: 4px; animation-delay: 3s; animation-duration: 7s; }
+
+@keyframes chispa-subir {
+    0%   { transform: translateY(0) translateX(0); opacity: 0; }
+    10%  { opacity: 0.85; }
+    100% { transform: translateY(-560px) translateX(26px); opacity: 0; }
+}
+
+.portada-contenido {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.portada-hero .titulo-principal {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    border: 1px solid rgba(8, 198, 231, 0.45);
+    border-radius: 999px;
+    background: rgba(8, 198, 231, 0.08);
+}
+
+.portada-hero .titulo-principal i {
+    color: #08c6e7;
+    animation: llama-latir 1.6s ease-in-out infinite alternate;
+}
+
+@keyframes llama-latir {
+    from { transform: scale(1); }
+    to   { transform: scale(1.18); }
+}
+
+.portada-intro {
+    max-width: 620px;
+    margin: 22px auto 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+.titulo-portada-juego {
+    margin: 26px 0 12px;
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, #ffffff 35%, #08c6e7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 26px rgba(8, 198, 231, 0.35));
+}
+
+.portada-eslogan {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+.portada-cta {
+    margin-top: 28px;
+}
+
+@media (max-width: 767.98px) {
+    .portada-hero {
+        padding: 60px 15px 50px;
+    }
+
+    .titulo-portada-juego {
+        font-size: 2.2rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .portada-fondo,
+    .portada-particulas span,
+    .portada-hero .titulo-principal i {
+        animation: none;
+    }
+}
+
 .texto-cuerpo {
     color: #ffffff;
     font-size: 1rem;
