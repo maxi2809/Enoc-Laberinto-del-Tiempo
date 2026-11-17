@@ -64,8 +64,9 @@
                             <h2 class="titulo-seccion" style="margin-top: 0;">Enoc en el Laberinto del Tiempo</h2>
                             <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
                             <p class="texto-cuerpo">
-                                Cruza las puertas de un laberinto antiguo y viaja a eras distintas para recuperar las piezas
-                                del Gran Reloj antes de que el tiempo se detenga para siempre.
+                                Enoc descubre un laberinto cuyas puertas conducen a distintas eras. Encarna a héroes
+                                legendarios, supera sus desafíos y reúne los fragmentos de la Roca de la Sabiduría
+                                antes de que el mundo caiga.
                             </p>
                             <a class="btn btn-principal mr-2" href="<?php echo base_url('el-juego'); ?>"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Ver más</a>
                             <a class="btn btn-outline-light" href="<?php echo base_url('tienda'); ?>"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> ¡Jugar ahora!</a>

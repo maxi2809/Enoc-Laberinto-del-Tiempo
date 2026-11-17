@@ -2,7 +2,7 @@
 
 Sitio web del videojuego **Enoc en el Laberinto del Tiempo**, primer gran proyecto de *Vela Studio*, desarrollado como trabajo final de HTML/CSS con **CodeIgniter 3**.
 
-Enoc descubre un laberinto antiguo cuyas puertas conducen a eras distintas de la historia. Explora cada época, resuelve los enigmas de sus guardianes y reúne las piezas del Gran Reloj antes de que el tiempo se detenga para siempre.
+Enoc descubre un laberinto antiguo cuyas puertas conducen a distintas eras. Guiado por el Guardián del Tiempo y una llave ancestral, encarna a héroes legendarios para recuperar los fragmentos de la **Roca de la Sabiduría** — valentía, honor, sacrificio, memoria, amor, compasión y amistad — y revertir el destino apocalíptico que amenaza a la humanidad.
 
 ## Estructura del sitio
 
