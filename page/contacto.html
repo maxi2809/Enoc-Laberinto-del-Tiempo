@@ -74,7 +74,7 @@
                 <div class="col-12 col-md-7 mb-4">
                     <!-- El envío es visual; cuando el proyecto avance se puede procesar
                          con CodeIgniter (form_validation, CSRF, etc.). -->
-                    <form>
+                    <form id="formulario">
                         <div class="form-group">
                             <label for="nombre">Nombre</label>
                             <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
@@ -144,21 +144,21 @@
                     <div class="hexa"><i class="fa-brands fa-discord" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Discord</h3>
                     <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y partidas conjuntas.</p>
-                    <a class="btn btn-principal" href="#">Unirme al Discord</a>
+                    <button class="btn btn-principal" disabled aria-disabled="true"><i class="fa-solid fa-hourglass-half" aria-hidden="true"></i> Próximamente</button>
                 </div>
 
                 <div class="col-12 col-md-4 mb-4">
                     <div class="hexa"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Foro del laberinto</h3>
                     <p class="texto-cuerpo">Teorías, guías de las eras y acertijos que la comunidad resuelve junta.</p>
-                    <a class="btn btn-principal" href="#">Visitar el foro</a>
+                    <a class="btn btn-principal" href="https://github.com/maxi2809/Enoc-Laberinto-del-Tiempo/discussions" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Visitar el foro</a>
                 </div>
 
                 <div class="col-12 col-md-4 mb-4">
                     <div class="hexa"><i class="fa-solid fa-newspaper" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Boletín</h3>
                     <p class="texto-cuerpo">Tráilers, fechas y bocetos del juego antes que nadie, directo a tu correo.</p>
-                    <a class="btn btn-principal" href="#">Suscribirme</a>
+                    <a class="btn btn-principal" href="#formulario"><i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i> Suscribirme</a>
                 </div>
 
             </div>
@@ -181,9 +181,8 @@
                 </div>
 
                 <div class="col-12 col-md-4 redes text-center text-md-right">
-                    <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/maxi2809/Enoc-Laberinto-del-Tiempo" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:hola@velastudio.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
                 </div>
 
             </div>
