@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 // Rutas amigables para las páginas del sitio
+$route['el-juego']    = 'pages/juego';
 $route['personajes'] = 'pages/personajes';
 $route['videos']     = 'pages/videos';
 $route['contacto']   = 'pages/contacto';

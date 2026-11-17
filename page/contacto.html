@@ -28,7 +28,10 @@
             <div class="collapse navbar-collapse" id="menuPrincipal">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Vela Studio</a>
+                        <a class="nav-link" href="index.html">Vela Studio <span class="sr-only">(página actual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="juego.html">El juego</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="Personajes.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personajes</a>
@@ -50,7 +53,7 @@
                         <a class="nav-link" href="usuario.html">Área de Usuario</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link activo" href="contacto.html">Contacto <span class="sr-only">(página actual)</span></a>
+                        <a class="nav-link activo" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -69,8 +72,8 @@
 
                 <!-- FORMULARIO -->
                 <div class="col-12 col-md-7 mb-4">
-                    <!-- NOTA: el envío es solo visual; cuando el proyecto avance se puede
-                         conectar a un servicio (Formspree, backend, etc.) con action y method. -->
+                    <!-- El envío es visual; cuando el proyecto avance se puede procesar
+                         con CodeIgniter (form_validation, CSRF, etc.). -->
                     <form>
                         <div class="form-group">
                             <label for="nombre">Nombre</label>
@@ -131,6 +134,35 @@
 
             </div>
         </section>
+
+        <!-- COMUNIDAD -->
+        <section class="container px-5 mt-4">
+            <h2 class="titulo-seccion text-center">Comunidad</h2>
+            <div class="row text-center">
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="hexa"><i class="fa-brands fa-discord" aria-hidden="true"></i></div>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Discord</h3>
+                    <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y partidas conjuntas.</p>
+                    <a class="btn btn-principal" href="#">Unirme al Discord</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="hexa"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Foro del laberinto</h3>
+                    <p class="texto-cuerpo">Teorías, guías de las eras y acertijos que la comunidad resuelve junta.</p>
+                    <a class="btn btn-principal" href="#">Visitar el foro</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="hexa"><i class="fa-solid fa-newspaper" aria-hidden="true"></i></div>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Boletín</h3>
+                    <p class="texto-cuerpo">Tráilers, fechas y bocetos del juego antes que nadie, directo a tu correo.</p>
+                    <a class="btn btn-principal" href="#">Suscribirme</a>
+                </div>
+
+            </div>
+        </section>
     </main>
 
     <!-- PIE DE PÁGINA -->
@@ -145,7 +177,7 @@
 
                 <div class="col-12 col-md-4 text-center">
                     <p class="mb-1">© 2026 · Vela Studio — Enoc: Laberinto del Tiempo</p>
-                    <p class="mb-0">Desarrollado por [Tu Nombre o Compañía]</p>
+                    <p class="mb-1">Desarrollado por Vela Studio S.A.</p>
                 </div>
 
                 <div class="col-12 col-md-4 redes text-center text-md-right">

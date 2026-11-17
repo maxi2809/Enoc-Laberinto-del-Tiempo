@@ -37,6 +37,32 @@
             </div>
         </section>
 
+        <!-- TARJETA DEL VIDEOJUEGO -->
+        <section class="container px-5 mt-4">
+            <div class="tarjeta">
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-12 col-md-4">
+                        <img class="img-fluid" src="<?php echo base_url('img/Portada del juego.png'); ?>" alt="Portada de Enoc en el Laberinto del Tiempo">
+                    </div>
+
+                    <div class="col-12 col-md-8">
+                        <div class="cuerpo-tarjeta">
+                            <h2 class="titulo-seccion" style="margin-top: 0;">Enoc en el Laberinto del Tiempo</h2>
+                            <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
+                            <p class="texto-cuerpo">
+                                Cruza las puertas de un laberinto antiguo y viaja a eras distintas para recuperar las piezas
+                                del Gran Reloj antes de que el tiempo se detenga para siempre.
+                            </p>
+                            <a class="btn btn-principal mr-2" href="<?php echo base_url('el-juego'); ?>"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Ver más</a>
+                            <a class="btn btn-outline-light" href="<?php echo base_url('tienda'); ?>"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> ¡Jugar ahora!</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <!-- EL ESTUDIO (antes en Inicio) -->
         <section class="container px-5 mt-4">
             <h2 class="titulo-seccion text-center">El estudio</h2>

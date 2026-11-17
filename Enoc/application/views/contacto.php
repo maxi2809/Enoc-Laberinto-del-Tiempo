@@ -74,4 +74,33 @@
 
             </div>
         </section>
+
+        <!-- COMUNIDAD -->
+        <section class="container px-5 mt-4">
+            <h2 class="titulo-seccion text-center">Comunidad</h2>
+            <div class="row text-center">
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="hexa"><i class="fa-brands fa-discord" aria-hidden="true"></i></div>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Discord</h3>
+                    <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y partidas conjuntas.</p>
+                    <a class="btn btn-principal" href="#">Unirme al Discord</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="hexa"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Foro del laberinto</h3>
+                    <p class="texto-cuerpo">Teorías, guías de las eras y acertijos que la comunidad resuelve junta.</p>
+                    <a class="btn btn-principal" href="#">Visitar el foro</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="hexa"><i class="fa-solid fa-newspaper" aria-hidden="true"></i></div>
+                    <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Boletín</h3>
+                    <p class="texto-cuerpo">Tráilers, fechas y bocetos del juego antes que nadie, directo a tu correo.</p>
+                    <a class="btn btn-principal" href="#">Suscribirme</a>
+                </div>
+
+            </div>
+        </section>
     </main>

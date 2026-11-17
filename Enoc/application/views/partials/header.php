@@ -31,6 +31,9 @@
                     <li class="nav-item">
                         <a class="nav-link<?php echo $vista_actual === 'index' ? ' activo' : ''; ?>" href="<?php echo base_url(); ?>">Vela Studio <span class="sr-only">(página actual)</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php echo $vista_actual === 'juego' ? ' activo' : ''; ?>" href="<?php echo base_url('el-juego'); ?>">El juego</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle<?php echo $vista_actual === 'personajes' ? ' activo' : ''; ?>" href="<?php echo base_url('personajes'); ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personajes</a>
                         <div class="dropdown-menu">

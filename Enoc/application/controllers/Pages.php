@@ -9,6 +9,7 @@ class Pages extends CI_Controller {
      */
     private $titulos = array(
         'index'      => 'Principal',
+        'juego'      => 'El juego',
         'personajes' => 'Personajes',
         'videos'     => 'Videos',
         'contacto'   => 'Contacto',
@@ -26,6 +27,12 @@ class Pages extends CI_Controller {
     public function index()
     {
         $this->cargar('index');
+    }
+
+    // http://localhost/Enoc/el-juego
+    public function juego()
+    {
+        $this->cargar('juego');
     }
 
     // http://localhost/Enoc/personajes
