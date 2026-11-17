@@ -289,14 +289,25 @@ a:focus-visible {
 
 .titulo-portada-juego {
     margin: 26px 0 12px;
-    font-size: 3.4rem;
+}
+
+.lettering-enoc {
+    height: 120px;
+    width: auto;
+    filter: invert(1) drop-shadow(0 0 16px rgba(255, 209, 102, 0.55)) drop-shadow(0 0 38px rgba(8, 198, 231, 0.3));
+}
+
+.titulo-portada-resto {
+    display: block;
+    margin-top: 6px;
+    font-size: 2.6rem;
     font-weight: 800;
     letter-spacing: 1px;
-    background: linear-gradient(180deg, #ffffff 35%, #08c6e7 100%);
+    background: linear-gradient(180deg, #f6e27a 20%, #c99a3f 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 0 26px rgba(8, 198, 231, 0.35));
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.55));
 }
 
 .portada-eslogan {
@@ -317,7 +328,15 @@ a:focus-visible {
     }
 
     .titulo-portada-juego {
-        font-size: 2.2rem;
+        margin-top: 18px;
+    }
+
+    .lettering-enoc {
+        height: 84px;
+    }
+
+    .titulo-portada-resto {
+        font-size: 1.7rem;
     }
 }
 

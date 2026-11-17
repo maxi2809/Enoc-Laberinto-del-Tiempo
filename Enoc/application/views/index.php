@@ -9,7 +9,10 @@
             <div class="portada-contenido">
                 <h1 class="titulo-principal"><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> Vela Studio</h1>
                 <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren y emocionen a las personas.</p>
-                <h2 class="titulo-portada-juego">Enoc en el Laberinto del Tiempo</h2>
+                <h2 class="titulo-portada-juego">
+                    <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc.png'); ?>" alt="Enoc">
+                    <span class="titulo-portada-resto">en el Laberinto del Tiempo</span>
+                </h2>
                 <p class="portada-eslogan">Un viaje a través del tiempo para salvar a la humanidad de una catástrofe: cada puerta guarda una era distinta.</p>
                 <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
                 <div class="portada-cta">
