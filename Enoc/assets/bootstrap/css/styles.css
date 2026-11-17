@@ -283,17 +283,11 @@ a:focus-visible {
     filter: invert(1) drop-shadow(0 0 16px rgba(255, 209, 102, 0.55)) drop-shadow(0 0 38px rgba(8, 198, 231, 0.3));
 }
 
-.titulo-portada-resto {
+.lettering-laberinto {
     display: block;
-    margin-top: 6px;
-    font-size: 2.6rem;
-    font-weight: 800;
-    letter-spacing: 1px;
-    background: linear-gradient(180deg, #f6e27a 20%, #c99a3f 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.55));
+    width: min(540px, 88%);
+    height: auto;
+    margin: 4px auto 0;
 }
 
 /* Titulo con lettering en la pagina El juego */
@@ -329,8 +323,8 @@ a:focus-visible {
         height: 84px;
     }
 
-    .titulo-portada-resto {
-        font-size: 1.7rem;
+    .lettering-laberinto {
+        width: 320px;
     }
 
     .logo-wordmark {

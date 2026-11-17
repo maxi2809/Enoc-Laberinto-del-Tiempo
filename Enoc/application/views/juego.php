@@ -5,7 +5,7 @@
         <section class="seccion-hero titulo-juego-hero">
             <h1 class="titulo-principal">
                 <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc.png'); ?>" alt="Enoc">
-                <span class="titulo-portada-resto">en el Laberinto del Tiempo</span>
+                <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
             </h1>
             <p class="slogan">La primera gran aventura de Vela Studio: cada puerta guarda una era distinta y cada decisión decide el destino de la humanidad.</p>
             <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>

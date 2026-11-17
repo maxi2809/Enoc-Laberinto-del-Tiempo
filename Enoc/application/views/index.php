@@ -11,7 +11,7 @@
                 <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren y emocionen a las personas.</p>
                 <h2 class="titulo-portada-juego">
                     <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc.png'); ?>" alt="Enoc">
-                    <span class="titulo-portada-resto">en el Laberinto del Tiempo</span>
+                    <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
                 </h2>
                 <p class="portada-eslogan">Un viaje a través del tiempo para salvar a la humanidad de una catástrofe: cada puerta guarda una era distinta.</p>
                 <p><span class="duracion">Aventura · Puzzles del tiempo · 2D</span></p>
