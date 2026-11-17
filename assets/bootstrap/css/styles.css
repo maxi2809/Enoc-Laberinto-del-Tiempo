@@ -280,17 +280,42 @@ a:focus-visible {
 .lettering-enoc {
     height: 120px;
     width: auto;
-    filter: invert(1) sepia(1) saturate(6) hue-rotate(132deg) brightness(1.08) drop-shadow(0 0 10px rgba(8, 198, 231, 0.8)) drop-shadow(0 0 30px rgba(8, 198, 231, 0.45));
+    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(8, 198, 231, 0.75)) drop-shadow(0 0 26px rgba(8, 198, 231, 0.4));
 }
 
 .lettering-laberinto {
     display: block;
-    width: min(400px, 80%);
+    width: min(330px, 76%);
     height: auto;
     margin: 2px auto 0;
 }
 
 /* Titulo con lettering en la pagina El juego */
+.titulo-juego-hero {
+    position: relative;
+    margin-top: 30px;
+    padding: 90px 20px 60px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(8, 198, 231, 0.25);
+}
+
+.titulo-juego-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:
+        linear-gradient(180deg, rgba(22, 28, 52, 0.88) 0%, rgba(22, 28, 52, 0.78) 50%, #161c34 100%),
+        url('../../../img/Portada del juego.png') no-repeat center 28% / cover;
+}
+
+.titulo-juego-hero > * {
+    position: relative;
+    z-index: 1;
+}
+
 .titulo-juego-hero .titulo-principal {
     color: inherit;
     letter-spacing: normal;
@@ -324,7 +349,7 @@ a:focus-visible {
     }
 
     .lettering-laberinto {
-        width: 250px;
+        width: 200px;
     }
 
     .logo-wordmark {
