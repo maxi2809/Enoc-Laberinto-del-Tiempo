@@ -222,14 +222,14 @@
         <!-- REQUISITOS -->
         <section class="container px-5 mt-4">
             <h2 class="titulo-seccion text-center">Requisitos del sistema</h2>
-            <div class="row">
+            <div class="row justify-content-center">
 
-                <div class="col-12 col-md-6 mb-4">
+                <div class="col-12 col-md-4 mb-4 ">
                     <div class="tarjeta">
-                        <div class="cuerpo-tarjeta">
-                            <h3>Requisitos recomendados</h3>
+                        <div class="cuerpo-tarjeta text-center">
+                            <h3>Recomendaciones</h3>
                             <ul class="lista-enlaces">
-                                <li><i class="fa-solid fa-desktop" aria-hidden="true"></i>Windows 10 / 11 (64 bits)</li>
+                                <li><i class="fa-solid fa-desktop" aria-hidden="true" ></i>Windows 10 / 11 (64 bits)</li>
                                 <li><i class="fa-solid fa-microchip" aria-hidden="true"></i>Procesador quad-core a 2.8 GHz</li>
                                 <li><i class="fa-solid fa-memory" aria-hidden="true"></i>8 GB de RAM</li>
                                 <li><i class="fa-solid fa-photo-video" aria-hidden="true"></i>Tarjeta gráfica dedicada de 2 GB</li>
