@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vela Studio · Contacto</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/styles.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-7.3.1-web/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="image-container logo-hover logo-principal">
+                <div class="logo-mecha">
+                    <img class="img-fluid d-block" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <div class="faro" aria-hidden="true"><span class="destello"></span></div>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar la navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Vela Studio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Personajes.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personajes</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Personajes.html#enoc">Enoc</a>
+                            <a class="dropdown-item" href="Personajes.html#mistico">Místico</a>
+                            <a class="dropdown-item" href="Personajes.html#aviador">Aviador</a>
+                            <a class="dropdown-item" href="Personajes.html#griego">Griego</a>
+                            <a class="dropdown-item" href="Personajes.html#vikingo">Vikingo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usuario.html">Área de Usuario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="contacto.html">Contacto <span class="sr-only">(página actual)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CUERPO -->
+    <main>
+        <section class="seccion-hero">
+            <h1 class="titulo-principal">Contacto</h1>
+            <p class="slogan">¿Quieres saber más del proyecto, colaborar o contarnos tu historia? Escríbenos.</p>
+        </section>
+
+        <section class="container px-5 mt-4">
+            <div class="row">
+
+                <!-- FORMULARIO -->
+                <div class="col-12 col-md-7 mb-4">
+                    <!-- NOTA: el envío es solo visual; cuando el proyecto avance se puede
+                         conectar a un servicio (Formspree, backend, etc.) con action y method. -->
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <select class="form-control" id="asunto" name="asunto">
+                                <option>Información general</option>
+                                <option>Colaboraciones</option>
+                                <option>Prensa</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos tu idea..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-principal mt-2">
+                            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+
+                <!-- DATOS DE CONTACTO -->
+                <div class="col-12 col-md-5 mb-4">
+                    <div class="tarjeta">
+                        <div class="cuerpo-tarjeta">
+                            <h3>Vela Studio</h3>
+                            <p class="dato-contacto">
+                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>Ciudad, País
+                            </p>
+                            <p class="dato-contacto">
+                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>hola@velastudio.com
+                            </p>
+                            <p class="dato-contacto">
+                                <i class="fa-solid fa-phone" aria-hidden="true"></i>+34 600 000 000
+                            </p>
+                            <hr style="border-color: #3a4364;">
+                            <p class="dato-contacto">
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>@velastudio
+                            </p>
+                            <p class="dato-contacto">
+                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>Vela Studio
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-4">
+                    <img class="logo-pie" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <img class="isotipo-pie" src="../img/isotipo.svg" alt="Isotipo de Vela Studio">
+                </div>
+
+                <div class="col-12 col-md-4 text-center">
+                    <p class="mb-1">© 2026 · Vela Studio — Enoc: Laberinto del Tiempo</p>
+                    <p class="mb-0">Desarrollado por [Tu Nombre o Compañía]</p>
+                </div>
+
+                <div class="col-12 col-md-4 redes text-center text-md-right">
+                    <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="../assets/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

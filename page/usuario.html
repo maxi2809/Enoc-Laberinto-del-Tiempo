@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vela Studio · Área de Usuario</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/styles.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-7.3.1-web/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="image-container logo-hover logo-principal">
+                <div class="logo-mecha">
+                    <img class="img-fluid d-block" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <div class="faro" aria-hidden="true"><span class="destello"></span></div>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar la navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Vela Studio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Personajes.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personajes</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Personajes.html#enoc">Enoc</a>
+                            <a class="dropdown-item" href="Personajes.html#mistico">Místico</a>
+                            <a class="dropdown-item" href="Personajes.html#aviador">Aviador</a>
+                            <a class="dropdown-item" href="Personajes.html#griego">Griego</a>
+                            <a class="dropdown-item" href="Personajes.html#vikingo">Vikingo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="usuario.html">Área de Usuario <span class="sr-only">(página actual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CUERPO -->
+    <main>
+        <section class="seccion-hero">
+            <h1 class="titulo-principal">Área de Usuario</h1>
+            <p class="slogan">Accede a tu cuenta para guardar tu progreso, tus logros y la configuración de tu viaje.</p>
+        </section>
+
+        <section class="container px-5 mt-4">
+            <div class="row">
+
+                <!-- INICIO DE SESIÓN -->
+                <div class="col-12 col-md-7 mb-4">
+                    <div class="tarjeta">
+                        <div class="cuerpo-tarjeta">
+                            <h3>Iniciar sesión</h3>
+                            <!-- NOTA: el acceso es visual; la validación con sesiones de CodeIgniter se agregará después. -->
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="clave">Contraseña</label>
+                                    <input type="password" class="form-control" id="clave" name="clave" placeholder="Tu contraseña" required>
+                                </div>
+
+                                <button type="submit" class="btn btn-principal mt-2">
+                                    <i class="fa-solid fa-right-to-bracket" aria-hidden="true"></i>
+                                    Iniciar sesión
+                                </button>
+
+                                <p class="mt-3 mb-0">¿Aún no tienes cuenta? <a href="#">Crea una aquí</a> y empieza tu viaje en el tiempo.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ZONA DE USUARIO -->
+                <div class="col-12 col-md-5 mb-4">
+                    <div class="tarjeta">
+                        <div class="cuerpo-tarjeta">
+                            <div class="hexa"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
+                            <h3 class="text-center">Zona de usuario</h3>
+                            <ul class="lista-enlaces">
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-user" aria-hidden="true"></i>Perfil</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-trophy" aria-hidden="true"></i>Logros y progreso</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-gear" aria-hidden="true"></i>Ajustes</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>Cerrar sesión</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-4">
+                    <img class="logo-pie" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <img class="isotipo-pie" src="../img/isotipo.svg" alt="Isotipo de Vela Studio">
+                </div>
+
+                <div class="col-12 col-md-4 text-center">
+                    <p class="mb-1">© 2026 · Vela Studio — Enoc: Laberinto del Tiempo</p>
+                    <p class="mb-0">Desarrollado por [Tu Nombre o Compañía]</p>
+                </div>
+
+                <div class="col-12 col-md-4 redes text-center text-md-right">
+                    <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="../assets/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

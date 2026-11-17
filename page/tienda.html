@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vela Studio · Tienda</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/styles.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-7.3.1-web/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="image-container logo-hover logo-principal">
+                <div class="logo-mecha">
+                    <img class="img-fluid d-block" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <div class="faro" aria-hidden="true"><span class="destello"></span></div>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar la navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Vela Studio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Personajes.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personajes</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Personajes.html#enoc">Enoc</a>
+                            <a class="dropdown-item" href="Personajes.html#mistico">Místico</a>
+                            <a class="dropdown-item" href="Personajes.html#aviador">Aviador</a>
+                            <a class="dropdown-item" href="Personajes.html#griego">Griego</a>
+                            <a class="dropdown-item" href="Personajes.html#vikingo">Vikingo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="tienda.html">Tienda <span class="sr-only">(página actual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usuario.html">Área de Usuario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CUERPO -->
+    <main>
+        <section class="seccion-hero">
+            <h1 class="titulo-principal">Tienda y Comunidad</h1>
+            <p class="slogan">Lleva el Laberinto contigo y únete a la comunidad de viajeros del tiempo.</p>
+        </section>
+
+        <section class="container px-5 mt-4">
+            <h2 class="titulo-seccion text-center">Tienda</h2>
+
+            <!-- NOTA: el carrito es solo visual; la lógica de compras se agregará más adelante. -->
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="tarjeta h-100 text-center">
+                        <img class="imagen-tarjeta" src="../img/encuentro.jpg" alt="Póster El encuentro">
+                        <div class="cuerpo-tarjeta">
+                            <h3 class="producto-nombre">Póster · El encuentro</h3>
+                            <p class="precio">$12.00</p>
+                            <button type="button" class="btn btn-principal btn-sm mt-1">
+                                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="tarjeta h-100 text-center">
+                        <img class="imagen-tarjeta" src="../img/olimpico.jpg" alt="Póster El olímpico">
+                        <div class="cuerpo-tarjeta">
+                            <h3 class="producto-nombre">Póster · El olímpico</h3>
+                            <p class="precio">$12.00</p>
+                            <button type="button" class="btn btn-principal btn-sm mt-1">
+                                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="tarjeta h-100 text-center">
+                        <img class="imagen-tarjeta" src="../img/piloto.jpg" alt="Póster El aviador">
+                        <div class="cuerpo-tarjeta">
+                            <h3 class="producto-nombre">Póster · El aviador</h3>
+                            <p class="precio">$10.00</p>
+                            <button type="button" class="btn btn-principal btn-sm mt-1">
+                                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="tarjeta h-100 text-center">
+                        <img class="imagen-tarjeta" src="../img/vikingo.jpg" alt="Póster El vikingo">
+                        <div class="cuerpo-tarjeta">
+                            <h3 class="producto-nombre">Póster · El vikingo</h3>
+                            <p class="precio">$10.00</p>
+                            <button type="button" class="btn btn-principal btn-sm mt-1">
+                                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container px-5 mt-4">
+            <h2 class="titulo-seccion text-center">Comunidad</h2>
+            <div class="row text-center">
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="tarjeta h-100">
+                        <div class="cuerpo-tarjeta">
+                            <div class="hexa"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
+                            <h3>Chat del Laberinto</h3>
+                            <p class="texto-cuerpo">Conversa en directo con otros viajeros mientras exploráis las puertas del tiempo.</p>
+                            <a class="btn btn-principal btn-sm mt-2" href="#">Entrar al chat</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="tarjeta h-100">
+                        <div class="cuerpo-tarjeta">
+                            <div class="hexa"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
+                            <h3>Foro de viajeros</h3>
+                            <p class="texto-cuerpo">Comparte teorías del lore, guías del laberinto y tus escenas favoritas.</p>
+                            <a class="btn btn-principal btn-sm mt-2" href="#">Visitar el foro</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="tarjeta h-100">
+                        <div class="cuerpo-tarjeta">
+                            <div class="hexa"><i class="fa-solid fa-calendar" aria-hidden="true"></i></div>
+                            <h3>Eventos</h3>
+                            <p class="texto-cuerpo">Transmisiones, torneos y presentaciones del estudio con la comunidad.</p>
+                            <a class="btn btn-principal btn-sm mt-2" href="#">Ver eventos</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-4">
+                    <img class="logo-pie" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <img class="isotipo-pie" src="../img/isotipo.svg" alt="Isotipo de Vela Studio">
+                </div>
+
+                <div class="col-12 col-md-4 text-center">
+                    <p class="mb-1">© 2026 · Vela Studio — Enoc: Laberinto del Tiempo</p>
+                    <p class="mb-0">Desarrollado por [Tu Nombre o Compañía]</p>
+                </div>
+
+                <div class="col-12 col-md-4 redes text-center text-md-right">
+                    <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="../assets/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

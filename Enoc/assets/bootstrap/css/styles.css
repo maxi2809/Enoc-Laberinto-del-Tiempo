@@ -1,0 +1,509 @@
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../../font/SourceSans3-Variable.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 200 900;
+    font-display: swap;
+}
+
+/* ==========================================================================
+   ESTILOS GENERALES
+   ========================================================================== */
+
+body {
+    background-color: #161c34;
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+a {
+    color: #08c6e7;
+}
+
+a:hover,
+a:focus-visible {
+    color: #ffffff;
+}
+
+/* Anclas por personaje: evita que la cabecera tape el destino del enlace */
+[id] {
+    scroll-margin-top: 100px;
+}
+
+/* ==========================================================================
+   NAVEGACIÓN
+   ========================================================================== */
+
+.nav-tabs .nav-link {
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus-visible {
+    color: #161c34;
+    background-color: #08c6e7;
+    border-color: #08c6e7;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link.activo {
+    color: #161c34;
+    background-color: #08c6e7;
+    border-color: #08c6e7;
+    font-weight: 700;
+}
+
+.btn-buscar {
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    border: 0;
+    background-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.btn-buscar:hover,
+.btn-buscar:focus-visible {
+    color: #08c6e7;
+    height: 30px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.form-inline .btn-outline-warning:hover,
+.form-inline .btn-outline-warning:focus-visible {
+    color: #161c34;
+    background-color: #08c6e7;
+    border-color: #08c6e7;
+}
+
+/* Menú desplegable de personajes */
+.dropdown-menu {
+    background-color: #161c34;
+    border: 1px solid #08c6e7;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus-visible {
+    color: #161c34;
+    background-color: #08c6e7;
+}
+
+/* ==========================================================================
+   LOGOTIPO CON EFECTO HOVER
+   ========================================================================== */
+
+/* Zoom del logotipo al pasar el ratón (solo escala, sin cambio de imagen) */
+.logo-hover {
+    transition: transform 0.2s ease;
+}
+
+.logo-hover:hover {
+    transform: scale(1.2);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    max-height: 120px;
+}
+
+.logo-principal {
+    max-width: 220px;
+    margin-right: 1rem;
+}
+
+.logo-principal img {
+    height: 90px;
+    width: auto;
+}
+
+/* ==========================================================================
+   PORTADA (index.html)
+   ========================================================================== */
+
+.cabecera {
+    padding: 20px 30px 0;
+}
+
+.seccion-hero {
+    margin-top: 40px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.titulo-principal {
+    color: #08c6e7;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.titulo-seccion {
+    margin-top: 24px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.slogan {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    line-height: 1.9;
+}
+
+.personaje-home {
+    height: 360px;
+    width: auto;
+}
+
+.presentacion-enoc {
+    margin-top: 20px;
+    padding: 0 15%;
+}
+
+.pie-foto {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.texto-cuerpo {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.btn-principal {
+    color: #161c34;
+    background-color: #08c6e7;
+    border-color: #08c6e7;
+    font-weight: 700;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-principal:hover,
+.btn-principal:focus-visible {
+    color: #161c34;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Imagen destacada con efecto de cambio al pasar el ratón */
+.feature-image-container {
+    position: relative;
+    display: block;
+    width: min(80vh, 100%);
+    max-width: 100%;
+    aspect-ratio: 1;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    overflow: hidden;
+}
+
+.feature-image-container img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-image-container .feature-image-hover {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.feature-image-container:hover .feature-image-hover {
+    opacity: 1;
+}
+
+/* ==========================================================================
+   TARJETAS (Personajes y Videos)
+   ========================================================================== */
+
+.tarjeta {
+    display: block;
+    height: 100%;
+    color: #ffffff;
+    background-color: #1e2640;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.tarjeta:hover,
+.tarjeta:focus {
+    color: #ffffff;
+    text-decoration: none;
+    border-color: #08c6e7;
+    transform: translateY(-4px);
+}
+
+.tarjeta .imagen-tarjeta {
+    display: block;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.tarjeta .cuerpo-tarjeta {
+    padding: 16px;
+}
+
+.tarjeta h3 {
+    margin-bottom: 8px;
+    color: #08c6e7;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.tarjeta p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+.duracion {
+    color: #161c34;
+    background-color: #08c6e7;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+.icono-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 12px rgba(8, 198, 231, 0.9);
+    transition: transform 0.2s ease;
+}
+
+.tarjeta:hover .icono-play {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* ==========================================================================
+   CONTACTO
+   ========================================================================== */
+
+.form-control {
+    color: #ffffff;
+    background-color: #0d1122;
+    border: 1px solid #3a4364;
+}
+
+.form-control:focus {
+    color: #ffffff;
+    background-color: #0d1122;
+    border-color: #08c6e7;
+    box-shadow: 0 0 0 0.2rem rgba(8, 198, 231, 0.25);
+}
+
+.form-control::placeholder {
+    color: #8a93b8;
+}
+
+.dato-contacto {
+    font-size: 1.05rem;
+    line-height: 2;
+}
+
+.dato-contacto i {
+    width: 1.5rem;
+    margin-right: 10px;
+    color: #08c6e7;
+}
+
+/* ==========================================================================
+   PIE DE PÁGINA
+   ========================================================================== */
+
+.pie {
+    margin-top: 60px;
+    padding: 40px 0;
+    background-color: #0d1122;
+}
+
+.logo-pie {
+    display: block;
+    max-width: 220px;
+    height: 80px;
+    width: auto;
+}
+
+.isotipo-pie {
+    display: block;
+    max-width: 70px;
+    margin-top: 8px;
+}
+
+.pie .redes a {
+    margin: 0 0.5rem;
+    font-size: 1.6rem;
+}
+
+/* ==========================================================================
+   ICONOS HEXAGONALES, LISTAS Y TIENDA
+   ========================================================================== */
+
+.numeracion {
+    color: #08c6e7;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hexa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 72px;
+    margin: 0 auto 12px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #08c6e7;
+}
+
+.hexa::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #1e2640;
+}
+
+.hexa i {
+    position: relative;
+    z-index: 1;
+    color: #08c6e7;
+    font-size: 1.6rem;
+}
+
+.lista-enlaces {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.95rem;
+    line-height: 2;
+    text-align: left;
+}
+
+.lista-enlaces i {
+    width: 1.4rem;
+    margin-right: 6px;
+    color: #08c6e7;
+}
+
+.lista-enlaces a {
+    color: #ffffff;
+}
+
+.lista-enlaces a:hover,
+.lista-enlaces a:focus-visible {
+    color: #08c6e7;
+}
+
+.precio {
+    color: #08c6e7;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.producto-nombre {
+    font-size: 1.1rem !important;
+}
+
+/* ==========================================================================
+   LOGO DE LA CABECERA CON FOCO DE FARO (la llama alumbra como un faro)
+   ========================================================================== */
+
+.logo-mecha {
+    position: relative;
+    display: inline-block;
+}
+
+/* El foco: círculo de luz corto centrado en la llama (x 48%, y 27% del logo),
+   con UN haz que barre de izquierda a derecha.
+   Oculto por defecto: solo se enciende al pasar el ratón por el logo */
+.logo-mecha .faro {
+    position: absolute;
+    left: 48%;
+    top: 27%;
+    width: 180px;
+    height: 180px;
+    margin: -90px 0 0 -90px;
+    border-radius: 50%;
+    background: conic-gradient(from -14deg at 50% 50%,
+        rgba(255, 246, 214, 0) 0deg,
+        rgba(255, 246, 214, 0.5) 14deg,
+        rgba(255, 214, 130, 0) 28deg,
+        rgba(255, 214, 130, 0) 360deg);
+    filter: blur(2px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: faro-barrido 3.5s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+/* La llama: destello cálido que late como la luz del faro
+   (va dentro de .faro: centrado en el círculo, que a su vez está anclado en la llama) */
+.logo-mecha .destello {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff8e0 0%, #ffd24a 45%, rgba(255, 180, 60, 0) 72%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: faro-latempe 1.5s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+/* Al pasar el ratón por el logo: se enciende el faro */
+.image-container.logo-hover:hover .faro,
+.image-container.logo-hover:hover .destello {
+    opacity: 1;
+}
+
+/* Barrido del haz: de -55 grados (izquierda) a +55 grados (derecha) y de vuelta */
+@keyframes faro-barrido {
+    from { transform: rotate(-55deg); }
+    to   { transform: rotate(55deg); }
+}
+
+/* Latido de la llama (solo escala; la opacidad la controla el hover) */
+@keyframes faro-latempe {
+    from { transform: scale(1); }
+    to   { transform: scale(1.3); }
+}
