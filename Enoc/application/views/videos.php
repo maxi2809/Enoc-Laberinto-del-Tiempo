@@ -47,4 +47,18 @@
 
             </div>
         </section>
+
+        <!-- BANDA SONORA -->
+        <section class="container px-5 mt-4">
+            <div class="tarjeta">
+                <div class="cuerpo-tarjeta text-center">
+                    <div class="hexa mb-3"><i class="fa-solid fa-music" aria-hidden="true"></i></div>
+                    <h3>Banda sonora</h3>
+                    <p class="texto-cuerpo mb-3">Tema principal de Enoc en el Laberinto del Tiempo.</p>
+                    <audio controls loop preload="none" src="<?php echo base_url('img/Enoc- Banda sonora1.mp3'); ?>" style="width: 100%; max-width: 520px;">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+        </section>
     </main>
