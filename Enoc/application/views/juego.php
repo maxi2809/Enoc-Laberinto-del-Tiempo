@@ -227,13 +227,28 @@
                 <div class="col-12 col-md-4 mb-4 ">
                     <div class="tarjeta">
                         <div class="cuerpo-tarjeta text-center">
+                            <h3>Requisitos mínimos</h3>
+                            <ul class="lista-enlaces">
+                                <li><i class="fa-solid fa-desktop" aria-hidden="true" ></i>Windows 10 (64 bits)</li>
+                                <li><i class="fa-solid fa-microchip" aria-hidden="true"></i>Procesador quad-core a 2.0 GHz</li>
+                                <li><i class="fa-solid fa-memory" aria-hidden="true"></i>4 GB de RAM</li>
+                                <li><i class="fa-solid fa-photo-video" aria-hidden="true"></i>Tarjeta gráfica con soporte DirectX 10</li>
+                                <li><i class="fa-solid fa-hard-drive" aria-hidden="true"></i>2 GB de espacio libre</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4 ">
+                    <div class="tarjeta">
+                        <div class="cuerpo-tarjeta text-center">
                             <h3>Recomendaciones</h3>
                             <ul class="lista-enlaces">
-                                <li><i class="fa-solid fa-desktop" aria-hidden="true" ></i>Windows 10 / 11 (64 bits)</li>
+                                <li><i class="fa-solid fa-desktop" aria-hidden="true" ></i>Windows 11 (64 bits)</li>
                                 <li><i class="fa-solid fa-microchip" aria-hidden="true"></i>Procesador quad-core a 2.8 GHz</li>
                                 <li><i class="fa-solid fa-memory" aria-hidden="true"></i>8 GB de RAM</li>
                                 <li><i class="fa-solid fa-photo-video" aria-hidden="true"></i>Tarjeta gráfica dedicada de 2 GB</li>
-                                <li><i class="fa-solid fa-hard-drive" aria-hidden="true"></i>2 GB de espacio libre (SSD)</li>
+                                <li><i class="fa-solid fa-hard-drive" aria-hidden="true"></i>4 GB de espacio libre (SSD)</li>
                             </ul>
                         </div>
                     </div>

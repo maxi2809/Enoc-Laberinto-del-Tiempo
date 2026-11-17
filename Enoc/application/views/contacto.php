@@ -66,17 +66,17 @@
                                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>San Luis, Argentina
                             </p>
                             <p class="dato-contacto">
-                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>hola@velastudio.com
+                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>contactos@velastudio.com
                             </p>
                             <p class="dato-contacto">
                                 <i class="fa-solid fa-phone" aria-hidden="true"></i>+54 266 5102058
                             </p>
                             <hr style="border-color: #3a4364;">
                             <p class="dato-contacto">
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>@velastudio
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>@velastudiosl
                             </p>
                             <p class="dato-contacto">
-                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>Vela Studio
+                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>Vela Studio SL
                             </p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="hexa"><i class="fa-brands fa-discord" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Discord</h3>
-                    <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y partidas conjuntas.</p>
+                    <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y juegos online.</p>
                     <button class="btn btn-principal" disabled aria-disabled="true"><i class="fa-solid fa-hourglass-half" aria-hidden="true"></i> Próximamente</button>
                 </div>
 

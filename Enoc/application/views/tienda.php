@@ -5,10 +5,10 @@
  * puede venir de la base de datos.
  */
 $productos = array(
-    array('Póster · El encuentro', '$12.00', 'encuentro.jpg'),
-    array('Póster · El olímpico', '$12.00', 'olimpico.jpg'),
-    array('Póster · El aviador', '$10.00', 'piloto.jpg'),
-    array('Póster · El vikingo', '$10.00', 'vikingo.jpg'),
+    array('Póster · El encuentro', '$1000.00', 'encuentro.jpg'),
+    array('Póster · El olímpico', '$1000.00', 'olimpico.jpg'),
+    array('Póster · El aviador', '$1200.00', 'piloto.jpg'),
+    array('Póster · El vikingo', '$1500.00', 'vikingo.jpg'),
 );
 
 ?>
@@ -52,7 +52,7 @@ $productos = array(
                         <div class="cuerpo-tarjeta">
                             <div class="hexa"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
                             <h3>Chat del Laberinto</h3>
-                            <p class="texto-cuerpo">Conversa en directo con otros viajeros mientras exploráis las puertas del tiempo.</p>
+                            <p class="texto-cuerpo">Habla en directo con otros viajeros mientras exploras las puertas del tiempo.</p>
                             <a class="btn btn-principal btn-sm mt-2" href="#">Entrar al chat</a>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ $productos = array(
                         <div class="cuerpo-tarjeta">
                             <div class="hexa"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
                             <h3>Foro de viajeros</h3>
-                            <p class="texto-cuerpo">Comparte teorías del lore, guías del laberinto y tus escenas favoritas.</p>
+                            <p class="texto-cuerpo">Comparte teorías de la historia, guías y estratégias o tus escenas favoritas.</p>
                             <a class="btn btn-principal btn-sm mt-2" href="#">Visitar el foro</a>
                         </div>
                     </div>
