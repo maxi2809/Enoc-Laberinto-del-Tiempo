@@ -1,7 +1,7 @@
 extends Control
 
-@onready var key: ColorRect = $Key
-@onready var door: ColorRect = $Door
+@onready var key: TextureRect = $Key
+@onready var door: TextureRect = $Door
 @onready var play_btn: Button = $Buttons/PlayButton
 @onready var options_btn: Button = $Buttons/OptionsButton
 @onready var quit_btn: Button = $Buttons/QuitButton
