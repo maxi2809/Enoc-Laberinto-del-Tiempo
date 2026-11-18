@@ -206,7 +206,7 @@ a:focus-visible {
     left: 0;
     background:
         linear-gradient(180deg, rgba(22, 28, 52, 0.86) 0%, rgba(22, 28, 52, 0.74) 45%, #161c34 100%),
-        url('../../../img/Portada del juego.png') no-repeat center 28% / cover;
+        url('../../img/Portada del juego.png') no-repeat center 28% / cover;
     animation: portada-zoom 20s ease-in-out infinite alternate;
 }
 
@@ -311,7 +311,7 @@ a:focus-visible {
     left: 0;
     background:
         linear-gradient(180deg, rgba(22, 28, 52, 0.88) 0%, rgba(22, 28, 52, 0.78) 50%, #161c34 100%),
-        url('../../../img/Portada del juego.png') no-repeat center 28% / cover;
+        url('../../img/Portada del juego.png') no-repeat center 28% / cover;
 }
 
 .titulo-juego-hero > * {
@@ -404,12 +404,7 @@ a:focus-visible {
     overflow: hidden;
 }
 
-.feature-image-container .carousel-inner,
-.feature-image-container .carousel-item {
-    height: 100%;
-}
-
-.feature-image-container .carousel-item img {
+.feature-image-container img {
     position: absolute;
     inset: 0;
     display: block;
@@ -418,14 +413,13 @@ a:focus-visible {
     object-fit: cover;
 }
 
-.feature-image-container .carousel-item img.carousel-image-contain {
-    object-fit: contain;
-    background-color: #11182a;
-    padding: 1rem;
+.feature-image-container .feature-image-hover {
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-.feature-image-container .carousel-indicators {
-    z-index: 2;
+.feature-image-container:hover .feature-image-hover {
+    opacity: 1;
 }
 
 /* ==========================================================================
@@ -603,7 +597,6 @@ a:focus-visible {
     font-size: 0.95rem;
     line-height: 2;
     text-align: left;
-    padding-left: 20px;
 }
 
 .lista-enlaces i {

@@ -7,7 +7,7 @@
     <title><?php echo isset($titulo) ? $titulo : 'Vela Studio'; ?></title>
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/styles.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome-free-7.3.1-web/css/all.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/all.min.css'); ?>">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="image-container logo-hover logo-principal">
                 <div class="logo-mecha">
-                    <img class="img-fluid d-block" src="<?php echo base_url('img/logo_s_f.svg'); ?>" alt="Vela Studio">
+                    <img class="img-fluid d-block" src="<?php echo base_url('assets/img/logo_s_f.svg'); ?>" alt="Vela Studio">
                     <div class="faro" aria-hidden="true"><span class="destello"></span></div>
                 </div>
             </div>

@@ -7,11 +7,11 @@
             <div class="portada-fondo" aria-hidden="true"></div>
             <div class="portada-particulas" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
             <div class="portada-contenido">
-                <h1 class="titulo-principal"><img class="logo-wordmark" src="<?php echo base_url('img/vela studio2.png'); ?>" alt="Vela Studio"></h1>
+                <h1 class="titulo-principal"><img class="logo-wordmark" src="<?php echo base_url('assets/img/vela studio2.png'); ?>" alt="Vela Studio"></h1>
                 <p class="portada-intro">Somos un estudio de animación y juegos que busca contar historias que inspiren, emocionen y eduquen a las personas.</p>
                 <h2 class="titulo-portada-juego">
-                    <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc-oro.png'); ?>" alt="Enoc">
-                    <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
+                    <img class="lettering-enoc" src="<?php echo base_url('assets/img/TipografiaEnoc-oro.png'); ?>" alt="Enoc">
+                    <img class="lettering-laberinto" src="<?php echo base_url('assets/img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
                 </h2>
                 <p class="portada-eslogan">Un viaje a través del tiempo para salvar a la humanidad de una catástrofe, donde cada puerta guarda un destino diferente.</p>
                 <p><span class="duracion">Aventura y Plataforma en 2D</span></p>
@@ -28,7 +28,7 @@
 
                 <div class="col-12 col-md-6">
                     <div class="text-center">
-                        <img class="personaje-home" src="<?php echo base_url('img/Enoc_s_f2.svg'); ?>" alt="Enoc, el viajero escogido para salvar a la humanidad" style="max-width: auto; height: 500px;">
+                        <img class="personaje-home" src="<?php echo base_url('assets/img/Enoc_s_f2.svg'); ?>" alt="Enoc, el viajero escogido para salvar a la humanidad" style="max-width: auto; height: 500px;">
                     </div>
                     <div class="presentacion-enoc">
                         <h3>Sumergete en la vida de Enoc en el Laberinto del Tiempo</h3>
@@ -50,19 +50,19 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item">
-                                <img class="carousel-image-contain" src="<?php echo base_url('img/TipografiaEnoc.png'); ?>" alt="Tipografía de Enoc">
+                                <img class="carousel-image-contain" src="<?php echo base_url('assets/img/TipografiaEnoc.png'); ?>" alt="Tipografía de Enoc">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-image-contain" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="Tarjetas de Enoc en el laberinto del Tiempo">
+                                <img class="carousel-image-contain" src="<?php echo base_url('assets/img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="Tarjetas de Enoc en el laberinto del Tiempo">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?php echo base_url('img/encuentro.jpg'); ?>" alt="Enoc conoce al Guardián del Tiempo en el laberinto">
+                                <img src="<?php echo base_url('assets/img/encuentro.jpg'); ?>" alt="Enoc conoce al Guardián del Tiempo en el laberinto">
                             </div>
                             <div class="carousel-item">
-                                <img src="<?php echo base_url('img/olimpico.jpg'); ?>" alt="Desafío de ritmo olímpico en la antigua Grecia">
+                                <img src="<?php echo base_url('assets/img/olimpico.jpg'); ?>" alt="Desafío de ritmo olímpico en la antigua Grecia">
                             </div>
                             <div class="carousel-item">
-                                <img src="<?php echo base_url('img/piloto.jpg'); ?>" alt="Desafío aéreo en la época de la Segunda Guerra Mundial">
+                                <img src="<?php echo base_url('assets/img/piloto.jpg'); ?>" alt="Desafío aéreo en la época de la Segunda Guerra Mundial">
                             </div>
 
                         </div>
@@ -84,7 +84,7 @@
                 <div class="row no-gutters align-items-center">
 
                     <div class="col-12 col-md-4">
-                        <img class="img-fluid" src="<?php echo base_url('img/Portada del juego.png'); ?>" alt="Portada de Enoc en el Laberinto del Tiempo">
+                        <img class="img-fluid" src="<?php echo base_url('assets/img/Portada del juego.png'); ?>" alt="Portada de Enoc en el Laberinto del Tiempo">
                     </div>
 
                     <div class="col-12 col-md-8">
@@ -151,7 +151,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 mb-4">
-                    <img class="img-fluid" src="<?php echo base_url('img/encuentro.jpg'); ?>" alt="Escena del encuentro entre personajes" style="border: 3px solid #08c6e7;">
+                    <img class="img-fluid" src="<?php echo base_url('assets/img/encuentro.jpg'); ?>" alt="Escena del encuentro entre personajes" style="border: 3px solid #08c6e7;">
                 </div>
 
             </div>

@@ -12,7 +12,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div id="enoc" class="tarjeta">
-                        <img class="imagen-tarjeta" src="<?php echo base_url('img/personaje-vista-frente.jpg'); ?>" alt="Enoc">
+                        <img class="imagen-tarjeta" src="<?php echo base_url('assets/img/personaje-vista-frente.jpg'); ?>" alt="Enoc">
                         <div class="cuerpo-tarjeta">
                             <h3>Enoc</h3>
                             <p>El protagonista es un explorador curioso y valiente que viaja a través de las puertas del tiempo para salvar a la humanidad.</p>
@@ -22,7 +22,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div id="mistico" class="tarjeta">
-                        <img class="imagen-tarjeta" src="<?php echo base_url('img/mistico.png'); ?>" alt="Místico">
+                        <img class="imagen-tarjeta" src="<?php echo base_url('assets/img/mistico.png'); ?>" alt="Místico">
                         <div class="cuerpo-tarjeta">
                             <h3>Místico</h3>
                             <p>El guardián del laberinto es el encargado de asignar los objetivos y ayudar a abrirpuertas. Solo revela el camino a quien demuestre sabiduría.</p>
@@ -32,7 +32,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div id="aviador" class="tarjeta">
-                        <img class="imagen-tarjeta" src="<?php echo base_url('img/avidor-vista de frente.jpg'); ?>" alt="Aviador">
+                        <img class="imagen-tarjeta" src="<?php echo base_url('assets/img/avidor-vista de frente.jpg'); ?>" alt="Aviador">
                         <div class="cuerpo-tarjeta">
                             <h3>Aviador</h3>
                             <p>Intrépido piloto de los cielos. Domina los cielos, derriba enemigos y recupera valores.</p>
@@ -42,7 +42,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div id="griego" class="tarjeta">
-                        <img class="imagen-tarjeta" src="<?php echo base_url('img/atleta-vista-frente.jpg'); ?>" alt="Griego">
+                        <img class="imagen-tarjeta" src="<?php echo base_url('assets/img/atleta-vista-frente.jpg'); ?>" alt="Griego">
                         <div class="cuerpo-tarjeta">
                             <h3>Griego</h3>
                             <p>Campeón olímpico de la antigua Grecia. Su fuerza y estrategia son claves para superar las pruebas físicas.</p>
@@ -52,7 +52,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div id="vikingo" class="tarjeta">
-                        <img class="imagen-tarjeta" src="<?php echo base_url('img/vikingo (2).jpg'); ?>" alt="Vikingo">
+                        <img class="imagen-tarjeta" src="<?php echo base_url('assets/img/vikingo (2).jpg'); ?>" alt="Vikingo">
                         <div class="cuerpo-tarjeta">
                             <h3>Vikingo</h3>
                             <p>Guerrero del norte. Navega entre tormentas y leyendas, conquista territorios y protege a su gente.</p>

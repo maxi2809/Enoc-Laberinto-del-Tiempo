@@ -206,7 +206,7 @@ a:focus-visible {
     left: 0;
     background:
         linear-gradient(180deg, rgba(22, 28, 52, 0.86) 0%, rgba(22, 28, 52, 0.74) 45%, #161c34 100%),
-        url('../../../img/Portada del juego.png') no-repeat center 28% / cover;
+        url('../../img/Portada del juego.png') no-repeat center 28% / cover;
     animation: portada-zoom 20s ease-in-out infinite alternate;
 }
 
@@ -311,7 +311,7 @@ a:focus-visible {
     left: 0;
     background:
         linear-gradient(180deg, rgba(22, 28, 52, 0.88) 0%, rgba(22, 28, 52, 0.78) 50%, #161c34 100%),
-        url('../../../img/Portada del juego.png') no-repeat center 28% / cover;
+        url('../../img/Portada del juego.png') no-repeat center 28% / cover;
 }
 
 .titulo-juego-hero > * {

@@ -6,7 +6,7 @@
     <title>Vela Studio · Contacto</title>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/bootstrap/css/styles.css">
-    <link rel="stylesheet" href="../assets/fontawesome-free-7.3.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="image-container logo-hover logo-principal">
                 <div class="logo-mecha">
-                    <img class="img-fluid d-block" src="../img/logo_s_f.svg" alt="Vela Studio">
+                    <img class="img-fluid d-block" src="../assets/img/logo_s_f.svg" alt="Vela Studio">
                     <div class="faro" aria-hidden="true"><span class="destello"></span></div>
                 </div>
             </div>
@@ -72,32 +72,32 @@
 
                 <!-- FORMULARIO -->
                 <div class="col-12 col-md-7 mb-4">
-                    <!-- El envío es visual; cuando el proyecto avance se puede procesar
-                         con CodeIgniter (form_validation, CSRF, etc.). -->
-                    <form id="formulario">
+                    
+                    
+                    <form id="formulario" method="post" action="contacto.html">
                         <div class="form-group">
                             <label for="nombre">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" value="" maxlength="100" required>
                         </div>
 
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" value="" maxlength="254" required>
                         </div>
 
                         <div class="form-group">
                             <label for="asunto">Asunto</label>
                             <select class="form-control" id="asunto" name="asunto">
-                                <option>Información general</option>
-                                <option>Colaboraciones</option>
-                                <option>Prensa</option>
-                                <option>Otro</option>
+                                <option value="general"  selected="selected">Información general</option>
+                                <option value="colaboraciones" >Colaboraciones</option>
+                                <option value="prensa" >Prensa</option>
+                                <option value="otro" >Otro</option>
                             </select>
                         </div>
 
                         <div class="form-group">
                             <label for="mensaje">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos tu idea..." required></textarea>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos tu idea..." maxlength="5000" required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-principal mt-2">
@@ -113,20 +113,20 @@
                         <div class="cuerpo-tarjeta">
                             <h3>Vela Studio</h3>
                             <p class="dato-contacto">
-                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>Ciudad, País
+                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>San Luis, Argentina
                             </p>
                             <p class="dato-contacto">
-                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>hola@velastudio.com
+                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>contactos@velastudio.com
                             </p>
                             <p class="dato-contacto">
-                                <i class="fa-solid fa-phone" aria-hidden="true"></i>+34 600 000 000
+                                <i class="fa-solid fa-phone" aria-hidden="true"></i>+54 266 5102058
                             </p>
                             <hr style="border-color: #3a4364;">
                             <p class="dato-contacto">
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>@velastudio
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>@velastudiosl
                             </p>
                             <p class="dato-contacto">
-                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>Vela Studio
+                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>Vela Studio SL
                             </p>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="hexa"><i class="fa-brands fa-discord" aria-hidden="true"></i></div>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Discord</h3>
-                    <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y partidas conjuntas.</p>
+                    <p class="texto-cuerpo">Chat en vivo con otros viajeros del tiempo, eventos y juegos online.</p>
                     <button class="btn btn-principal" disabled aria-disabled="true"><i class="fa-solid fa-hourglass-half" aria-hidden="true"></i> Próximamente</button>
                 </div>
 
@@ -171,20 +171,21 @@
             <div class="row align-items-center">
 
                 <div class="col-12 col-md-4">
-                    <img class="logo-pie" src="../img/logo_s_f.svg" alt="Vela Studio">
-                    <img class="isotipo-pie" src="../img/isotipo.svg" alt="Isotipo de Vela Studio">
+                    <img class="logo-pie" src="../assets/img/logo_s_f.svg" alt="Vela Studio">
+                    <img class="isotipo-pie" src="../assets/img/isotipo.svg" alt="Isotipo de Vela Studio">
                 </div>
 
                 <div class="col-12 col-md-4 text-center">
-                    <p class="mb-1">© 2026 · Vela Studio — Enoc: Laberinto del Tiempo</p>
+                    <p class="mb-1">© 2026 · Vela Studio — Enoc en el Laberinto del Tiempo</p>
                     <p class="mb-1">Desarrollado por Vela Studio S.A.</p>
                 </div>
 
                 <div class="col-12 col-md-4 redes text-center text-md-right">
                     <a href="https://github.com/maxi2809/Enoc-Laberinto-del-Tiempo" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:hola@velastudio.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="mailto:contactos@velastudio.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.youtube.com/@velastudio" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/velastudio/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
-
             </div>
         </div>
     </footer>

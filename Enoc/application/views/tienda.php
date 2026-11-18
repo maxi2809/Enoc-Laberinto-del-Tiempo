@@ -28,7 +28,7 @@ $productos = array(
                 <?php foreach ($productos as $producto) : ?>
                     <div class="col-12 col-md-6 col-lg-3 mb-4">
                         <div class="tarjeta h-100 text-center">
-                            <img class="imagen-tarjeta" src="<?php echo base_url('img/' . $producto[2]); ?>" alt="<?php echo $producto[0]; ?>">
+                            <img class="imagen-tarjeta" src="<?php echo base_url('assets/img/' . $producto[2]); ?>" alt="<?php echo $producto[0]; ?>">
                             <div class="cuerpo-tarjeta">
                                 <h3 class="producto-nombre"><?php echo $producto[0]; ?></h3>
                                 <p class="precio"><?php echo $producto[1]; ?></p>

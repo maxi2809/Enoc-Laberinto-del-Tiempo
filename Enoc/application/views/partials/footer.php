@@ -6,8 +6,8 @@
             <div class="row align-items-center">
 
                 <div class="col-12 col-md-4">
-                    <img class="logo-pie" src="<?php echo base_url('img/logo_s_f.svg'); ?>" alt="Vela Studio">
-                    <img class="isotipo-pie" src="<?php echo base_url('img/isotipo.svg'); ?>" alt="Isotipo de Vela Studio">
+                    <img class="logo-pie" src="<?php echo base_url('assets/img/logo_s_f.svg'); ?>" alt="Vela Studio">
+                    <img class="isotipo-pie" src="<?php echo base_url('assets/img/isotipo.svg'); ?>" alt="Isotipo de Vela Studio">
                 </div>
 
                 <div class="col-12 col-md-4 text-center">
