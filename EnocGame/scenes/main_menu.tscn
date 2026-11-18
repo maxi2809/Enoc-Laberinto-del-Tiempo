@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://mainmenu001"]
+[gd_scene load_steps=6 format=3 uid="uid://mainmenu001"]
 
 [ext_resource type="Texture2D" path="res://assets/img/vela studio2.png" id="1_logo"]
 [ext_resource type="Texture2D" path="res://assets/img/TipografiaEnoc-oro.png" id="2_title"]
-[ext_resource type="Script" path="res://scripts/main_menu.gd" id="3_script"]
+[ext_resource type="Texture2D" path="res://assets/img/Enoc_s_f2.svg" id="3_enoc"]
+[ext_resource type="Texture2D" path="res://assets/img/mistico.png" id="4_mistico"]
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="5_script"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -11,7 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("3_script")
+script = ExtResource("5_script")
 
 [node name="Background" type="ColorRect" parent="."]
 layout_mode = 1
@@ -19,6 +21,37 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color(0.0862745, 0.109804, 0.203922, 1)
+
+[node name="EnocBg" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = -460.0
+offset_right = 340.0
+offset_bottom = -20.0
+texture = ExtResource("3_enoc")
+expand_mode = 1
+stretch_mode = 5
+modulate = Color(1, 1, 1, 0.45)
+
+[node name="MisticoBg" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -360.0
+offset_top = -480.0
+offset_right = -40.0
+offset_bottom = -20.0
+texture = ExtResource("4_mistico")
+expand_mode = 1
+stretch_mode = 5
+modulate = Color(1, 1, 1, 0.45)
+flip_h = true
 
 [node name="Logo" type="TextureRect" parent="."]
 layout_mode = 1
