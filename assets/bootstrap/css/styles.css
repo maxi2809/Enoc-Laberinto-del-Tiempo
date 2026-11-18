@@ -413,6 +413,18 @@ a:focus-visible {
     object-fit: cover;
 }
 
+/* Altura del carrusel dentro del contenedor destacado */
+.feature-image-container .carousel-inner,
+.feature-image-container .carousel-item {
+    height: 100%;
+}
+
+/* Imagenes de marca (tipografia y tarjetas) completas, sin recorte */
+.feature-image-container img.carousel-image-contain {
+    object-fit: contain;
+    background-color: #0d1226;
+}
+
 .feature-image-container .feature-image-hover {
     opacity: 0;
     transition: opacity 0.3s ease;
