@@ -15,7 +15,7 @@
                         <img class="imagen-tarjeta" src="<?php echo base_url('img/personaje-vista-frente.jpg'); ?>" alt="Enoc">
                         <div class="cuerpo-tarjeta">
                             <h3>Enoc</h3>
-                            <p>El protagonista. Un explorador curioso y valiente que viaja a través de las puertas del tiempo para salvar a la humanidad.</p>
+                            <p>El protagonista es un explorador curioso y valiente que viaja a través de las puertas del tiempo para salvar a la humanidad.</p>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                         <img class="imagen-tarjeta" src="<?php echo base_url('img/mistico.png'); ?>" alt="Místico">
                         <div class="cuerpo-tarjeta">
                             <h3>Místico</h3>
-                            <p>El guardián del laberinto. Teje enigmas y sueños entre sus puertas, y solo revela el camino a quien demuestre sabiduría.</p>
+                            <p>El guardián del laberinto es el encargado de asignar los objetivos y ayudar a abrirpuertas. Solo revela el camino a quien demuestre sabiduría.</p>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <img class="imagen-tarjeta" src="<?php echo base_url('img/avidor-vista de frente.jpg'); ?>" alt="Aviador">
                         <div class="cuerpo-tarjeta">
                             <h3>Aviador</h3>
-                            <p>Intrépido piloto de los cielos. Domina naves de todas las épocas y conoce los atajos secretos entre distantes mundos.</p>
+                            <p>Intrépido piloto de los cielos. Domina los cielos, derriba enemigos y recupera valores.</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                         <img class="imagen-tarjeta" src="<?php echo base_url('img/atleta-vista-frente.jpg'); ?>" alt="Griego">
                         <div class="cuerpo-tarjeta">
                             <h3>Griego</h3>
-                            <p>Campeón olímpico de la antigua Grecia. Su fuerza y estrategia son claves para superar las pruebas físicas del laberinto.</p>
+                            <p>Campeón olímpico de la antigua Grecia. Su fuerza y estrategia son claves para superar las pruebas físicas.</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                         <img class="imagen-tarjeta" src="<?php echo base_url('img/vikingo (2).jpg'); ?>" alt="Vikingo">
                         <div class="cuerpo-tarjeta">
                             <h3>Vikingo</h3>
-                            <p>Guerrero del norte. Navega entre tormentas y leyendas, y ninguna tempestad del laberinto le hará retroceder.</p>
+                            <p>Guerrero del norte. Navega entre tormentas y leyendas, conquista territorios y protege a su gente.</p>
                         </div>
                     </div>
                 </div>

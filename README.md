@@ -20,7 +20,7 @@ Enoc descubre un laberinto antiguo cuyas puertas conducen a distintas eras. Guia
 
 - **HTML5 + CSS3** con **Bootstrap 4** (recursos locales) y **Font Awesome** (local)
 - **CodeIgniter 3** (PHP) para el sitio dinámico, con rutas amigables
-- Efectos CSS propios: faro en el logo, intercambio de escenas, chispas de vela animadas
+- Efectos CSS propios: faro en el logo, intercambio de escenas
 - Espejos estáticos en `page/` para la entrega sin servidor
 
 ## Cómo ejecutarlo

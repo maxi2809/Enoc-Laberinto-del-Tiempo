@@ -7,7 +7,7 @@
                 <img class="lettering-enoc" src="<?php echo base_url('img/TipografiaEnoc-oro.png'); ?>" alt="Enoc">
                 <img class="lettering-laberinto" src="<?php echo base_url('img/Tarjetas de Enoc en el laberinto del Tiempo.png'); ?>" alt="en el Laberinto del Tiempo">
             </h1>
-            <p class="slogan">Un viaje a través del tiempo y del alma humana, dondecada puerta es una lección, cada misión una prueba y cada fragmento una esperanza.</p>
+            <p class="slogan">Un viaje a través del tiempo y del alma humana, donde cada puerta es una lección, cada misión una prueba y cada fragmento una esperanza.</p>
             <p><span class="duracion">Aventura y Plataforma en 2D</span></p>
         </section>
 

@@ -92,8 +92,9 @@
                             <h2 class="titulo-seccion" style="margin-top: 0;">Enoc en el Laberinto del Tiempo</h2>
                             <p><span class="duracion">Aventura y Plataforma en 2D</span></p>
                             <p class="texto-cuerpo">
-                                Enoc descubre un laberinto, en donde sus puertas conducen a distintas eras. Encarna a héroes
-                                legendarios, supera sus desafíos y reúne los fragmentos de la Roca de la Sabiduría antes de que el mundo caiga.
+                                Enoc descubre un laberinto, en donde sus puertas conducen a distintas eras. 
+                                Encarna a héroes legendarios, supera sus desafíos y reúne los fragmentos de la 
+                                Roca de la Sabiduría antes de que el mundo caiga.
                             </p>
                             <a class="btn btn-principal mr-2" href="<?php echo base_url('el-juego'); ?>"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Ver más</a>
                             <a class="btn btn-outline-light" href="<?php echo base_url('tienda'); ?>"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> ¡Jugar ahora!</a>
@@ -124,7 +125,8 @@
                 <div class="col-12 col-md-4 mb-4">
                     <i class="fa-solid fa-pen-nib fa-3x mb-3" style="color: #08c6e7;"></i>
                     <h3 class="titulo-seccion" style="margin-top: 10px; font-size: 1.5rem;">Ilustración</h3>
-                    <p class="texto-cuerpo">Creamos concept art, personajes y escenarios que definen la identidad visual de cada proyecto.</p>
+                    <p class="texto-cuerpo">Creamos conceptos artísticos, personajes y escenarios 
+                        que definen la identidad visual de cada proyecto.</p>
                 </div>
 
             </div>
@@ -137,12 +139,13 @@
                 <div class="col-12 col-md-6 mb-4">
                     <h2 class="titulo-seccion" style="margin-top: 0;">Nuestro primer gran viaje</h2>
                     <p class="texto-cuerpo">
-                        <strong>Enoc en el Laberinto del Tiempo</strong> es el proyecto insignia del estudio: una aventura
-                        donde cada puerta conduce a una época distinta y cada decisión cambia el destino de la humanidad.
+                        <strong>Enoc en el Laberinto del Tiempo</strong> es el proyecto insignia del estudio. 
+                        Una aventura donde cada puerta conduce a una época distinta 
+                        y cada decisión cambia el destino de la humanidad.
                     </p>
                     <p class="texto-cuerpo">
-                        Detrás de este proyecto hay bocetos, prototipos y un equipo que sueña con emocionar a quien juegue
-                        o vea nuestras historias.
+                        Detrás de este proyecto hay bocetos, prototipos y 
+                        un equipo que sueña con emocionar a quien juegue o vea nuestras historias.
                     </p>
                     <a class="btn btn-principal" href="<?php echo base_url('personajes'); ?>">Descubre los personajes</a>
                 </div>
