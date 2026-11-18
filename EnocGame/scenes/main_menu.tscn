@@ -1,13 +1,12 @@
-[gd_scene load_steps=8 format=3 uid="uid://mainmenu001"]
+[gd_scene load_steps=7 format=3 uid="uid://mainmenu001"]
 
 [ext_resource type="Texture2D" path="res://assets/img/vela studio2.png" id="1_logo"]
 [ext_resource type="Texture2D" path="res://assets/img/TipografiaEnoc-oro.png" id="2_title"]
 [ext_resource type="Texture2D" path="res://assets/img/Enoc_s_f2.svg" id="3_enoc"]
-[ext_resource type="Texture2D" path="res://assets/img/mistico.png" id="4_mistico"]
-[ext_resource type="Texture2D" path="res://assets/img/fondo.png" id="5_fondo"]
-[ext_resource type="Texture2D" path="res://assets/img/puerta.png" id="6_puerta"]
-[ext_resource type="Texture2D" path="res://assets/img/llave.png" id="7_llave"]
-[ext_resource type="Script" path="res://scripts/main_menu.gd" id="8_script"]
+[ext_resource type="Texture2D" path="res://assets/img/fondo.png" id="4_fondo"]
+[ext_resource type="Texture2D" path="res://assets/img/puerta.png" id="5_puerta"]
+[ext_resource type="Texture2D" path="res://assets/img/llave.png" id="6_llave"]
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="7_script"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -16,17 +15,17 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("8_script")
+script = ExtResource("7_script")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource("5_fondo")
+texture = ExtResource("4_fondo")
 expand_mode = 1
 stretch_mode = 6
-modulate = Color(0.55, 0.55, 0.65, 1)
+modulate = Color(0.5, 0.5, 0.6, 1)
 
 [node name="EnocBg" type="TextureRect" parent="."]
 layout_mode = 1
@@ -41,35 +40,6 @@ texture = ExtResource("3_enoc")
 expand_mode = 1
 stretch_mode = 5
 modulate = Color(1, 1, 1, 0.5)
-
-[node name="MisticoBg" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -360.0
-offset_top = -480.0
-offset_right = -40.0
-offset_bottom = -20.0
-texture = ExtResource("4_mistico")
-expand_mode = 1
-stretch_mode = 5
-modulate = Color(1, 1, 1, 0.5)
-flip_h = true
-
-[node name="Logo" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 0
-offset_left = 24.0
-offset_top = 24.0
-offset_right = 168.0
-offset_bottom = 72.0
-texture = ExtResource("1_logo")
-expand_mode = 1
-stretch_mode = 5
-modulate = Color(1, 1, 1, 0.85)
 
 [node name="Title" type="TextureRect" parent="."]
 layout_mode = 1
@@ -95,21 +65,10 @@ offset_left = -150.0
 offset_top = -220.0
 offset_right = 150.0
 offset_bottom = 220.0
-texture = ExtResource("6_puerta")
+texture = ExtResource("5_puerta")
 expand_mode = 1
 stretch_mode = 5
 pivot_offset = Vector2(0, 220)
-
-[node name="DoorLabel" type="Label" parent="Door"]
-visible = false
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-text = "PUERTA DEL
-LABERINTO"
-horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="Key" type="TextureRect" parent="."]
 layout_mode = 1
@@ -122,32 +81,22 @@ offset_left = -64.0
 offset_top = -64.0
 offset_right = 64.0
 offset_bottom = 64.0
-texture = ExtResource("7_llave")
+texture = ExtResource("6_llave")
 expand_mode = 1
 stretch_mode = 5
 pivot_offset = Vector2(64, 64)
 
-[node name="Buttons" type="VBoxContainer" parent="."]
+[node name="Hint" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -130.0
-offset_top = -210.0
-offset_right = 130.0
-offset_bottom = -60.0
-theme_override_constants/separation = 14
-
-[node name="PlayButton" type="Button" parent="Buttons"]
-layout_mode = 2
-text = "JUGAR"
-
-[node name="OptionsButton" type="Button" parent="Buttons"]
-layout_mode = 2
-text = "OPCIONES"
-
-[node name="QuitButton" type="Button" parent="Buttons"]
-layout_mode = 2
-text = "SALIR"
+offset_left = -260.0
+offset_top = -90.0
+offset_right = 260.0
+offset_bottom = -50.0
+text = "Presiona cualquier tecla o haz clic para comenzar"
+horizontal_alignment = 1
+vertical_alignment = 1
